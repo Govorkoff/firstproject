@@ -1,22 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header'
+import Navbar from './components/Navbar'
+import Profile from './components/Profile'
 
 const App = () => {
   return (
     <div className='app-wrapper'>
-      
-      <header>
-        <img src="https://a.deviantart.net/avatars/j/a/jack070.png?7"></img>
-      </header>
-      
-      <nav>
-        <div>Profile</div>
-        <div>Message</div>
-      </nav>
 
-      <div>
-      </div>
-
+      <Header />
+      <Navbar />
+      <Profile />
 
     </div>
   );
